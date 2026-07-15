@@ -1,2 +1,3 @@
-# Alibaba-VELLDEPTH.github.io
-Official website for Alibaba-VELLDEPTH
+# Alibaba VELLDEPTH
+
+Official website for Alibaba VELLDEPTH: <https://alibaba-velldepth.github.io/>
