@@ -3,8 +3,11 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="Official website for Alibaba VELLDEPTH." />
-    <title>Alibaba VELLDEPTH</title>
+    <meta
+      name="description"
+      content="Official website for Alibaba Security VELLDEPTH and its public security agent writeups."
+    />
+    <title>Alibaba Security VELLDEPTH</title>
     <style>
       :root {
         color-scheme: dark;
@@ -49,6 +52,13 @@
         padding: 32px;
       }
 
+      .top-entry {
+        position: fixed;
+        top: 24px;
+        right: 24px;
+        z-index: 2;
+      }
+
       .hero {
         width: min(760px, 100%);
       }
@@ -75,20 +85,29 @@
       }
 
       h1 {
-        max-width: 720px;
+        max-width: 760px;
         margin: 0;
-        font-size: clamp(3rem, 11vw, 7.6rem);
         font-weight: 750;
-        letter-spacing: -0.065em;
-        line-height: 0.88;
+        letter-spacing: -0.055em;
+        line-height: 0.92;
       }
 
-      h1 span {
+      h1 .line-brand {
+        display: block;
+        color: #f8fafc;
+        font-size: clamp(2.1rem, 7vw, 4.9rem);
+        letter-spacing: -0.045em;
+        white-space: nowrap;
+      }
+
+      h1 .line-name {
         display: block;
         color: transparent;
         background: linear-gradient(90deg, #38bdf8, #67e8f9 55%, #a5f3fc);
         background-clip: text;
         -webkit-background-clip: text;
+        font-size: clamp(3rem, 10.6vw, 7.4rem);
+        letter-spacing: -0.06em;
       }
 
       .description {
@@ -119,7 +138,7 @@
         transition: border-color 160ms ease, background 160ms ease, transform 160ms ease;
       }
 
-      a:first-child {
+      .actions a:first-child {
         border-color: #22d3ee;
         background: #22d3ee;
         color: #07111f;
@@ -131,7 +150,7 @@
         transform: translateY(-2px);
       }
 
-      a:first-child:hover {
+      .actions a:first-child:hover {
         background: #67e8f9;
       }
 
@@ -149,30 +168,38 @@
           padding: 24px;
         }
 
-        h1 {
-          letter-spacing: -0.055em;
+        h1 .line-brand {
+          white-space: normal;
         }
 
         footer {
           display: none;
         }
+
+        .top-entry {
+          top: 16px;
+          right: 16px;
+        }
       }
     </style>
   </head>
   <body>
+    <nav class="top-entry" aria-label="Featured page">
+      <a href="writeups/">CyberGym Writeup</a>
+    </nav>
     <main>
       <section class="hero" aria-labelledby="site-title">
         <p class="eyebrow">Official website</p>
-        <h1 id="site-title">Alibaba <span>VELLDEPTH</span></h1>
+        <h1 id="site-title"><span class="line-brand">Alibaba Security</span><span class="line-name">VELLDEPTH</span></h1>
         <p class="description">
-          Welcome to the official home of Alibaba VELLDEPTH. More updates are coming soon.
         </p>
         <nav class="actions" aria-label="Project links">
+          <a href="writeups/">CyberGym Writeup</a>
           <a href="https://github.com/Alibaba-VELLDEPTH">View on GitHub</a>
           <a href="https://github.com/Alibaba-VELLDEPTH/MetaVideoAgent">MetaVideoAgent</a>
         </nav>
       </section>
     </main>
-    <footer>Alibaba VELLDEPTH</footer>
+    <footer>Alibaba Security VELLDEPTH</footer>
   </body>
 </html>
