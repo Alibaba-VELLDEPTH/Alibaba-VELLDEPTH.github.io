@@ -17,7 +17,7 @@ Environment setup: During the design of our harness, we followed the principles 
 - The harness does not use execution results from the patched/fixed version to help the model choose among candidates.
 - The harness does not provide hints based on external vulnerability databases, public PoCs, or project history.
 
-The model can generate candidates only through source-code understanding and the description files provided by the task, and the validity of candidate PoCs is verified solely through the vul submission interface provided by the task. This setup strictly follows the restricted-information assumption of L1 itself, and makes the evaluation results better reflect the gains brought by the model training and harness design.
+The model can generate candidates only through source-code understanding and the description files provided by the task, and the validity of candidate PoCs is verified solely through the vul submission interface provided by the task. This setup strictly follows the restricted-information assumption of L1, and makes the evaluation results better reflect the gains brought by the model training and harness design.
 
 ## Technical Routine
 
