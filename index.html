@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta
       name="description"
-      content="Official website for Alibaba Security VELLDEPTH and its public security agent writeups."
+      content="Official website for Alibaba Security VELLDEPTH and its CyberGym Agent Track and Model Track writeups."
     />
     <title>Alibaba Security VELLDEPTH</title>
     <link rel="icon" type="image/png" href="assets/favicon.png" />
@@ -27,7 +27,7 @@
       body {
         min-height: 100vh;
         margin: 0;
-        overflow: hidden;
+        overflow-x: hidden;
         background:
           radial-gradient(circle at 20% 20%, rgba(33, 150, 243, 0.2), transparent 35%),
           radial-gradient(circle at 80% 70%, rgba(0, 229, 255, 0.14), transparent 35%),
@@ -52,13 +52,6 @@
         min-height: 100vh;
         place-items: center;
         padding: 32px;
-      }
-
-      .top-entry {
-        position: fixed;
-        top: 24px;
-        right: 24px;
-        z-index: 2;
       }
 
       .hero {
@@ -178,17 +171,10 @@
           display: none;
         }
 
-        .top-entry {
-          top: 16px;
-          right: 16px;
-        }
       }
     </style>
   </head>
   <body>
-    <nav class="top-entry" aria-label="Featured page">
-      <a href="writeups/">CyberGym Writeup</a>
-    </nav>
     <main>
       <section class="hero" aria-labelledby="site-title">
         <p class="eyebrow">Official website</p>
@@ -196,7 +182,8 @@
         <p class="description">
         </p>
         <nav class="actions" aria-label="Project links">
-          <a href="writeups/">CyberGym Writeup</a>
+          <a href="writeups/model-track.html">CyberGym Model Track</a>
+          <a href="writeups/agent-track.html">CyberGym Agent Track</a>
           <a href="https://github.com/Alibaba-VELLDEPTH">View on GitHub</a>
           <a href="https://github.com/Alibaba-VELLDEPTH/MetaVideoAgent">MetaVideoAgent</a>
         </nav>

@@ -1,0 +1,27 @@
+.track-nav {
+  display: flex;
+  justify-content: center;
+  gap: 28px;
+  margin-bottom: 32px;
+}
+
+.track-nav a {
+  padding: 10px 0;
+  border-bottom: 2px solid transparent;
+  color: #a8b6c8;
+  font-size: 1rem;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.track-nav a[aria-current="page"] {
+  border-color: #67e8f9;
+  color: #67e8f9;
+}
+
+.track-nav a:hover {
+  color: #fff;
+}
+
+.model-report article a { color: #67e8f9; overflow-wrap: anywhere; }
+.model-report article code { overflow-wrap: anywhere; }
