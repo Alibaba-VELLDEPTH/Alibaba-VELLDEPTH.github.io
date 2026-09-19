@@ -1,6 +1,6 @@
 # XekRung-1.5-27B-Preview CyberGym Report
 
-`XekRung-1.5-27B-Preview` is built on Qwen3.8-27B. In CyberGym Level 1 evaluation, it achieved an **89.8%** success rate, an absolute improvement of **35.29 percentage points** over the 54.51% base-model score (**64.74% relative improvement**). As of 2026-09-13, this result ranks **#1** on the CyberGym Model leaderboard. The gain comes from security-oriented model post-training rather than task-specific agent policies. The model has been deployed in real-world security settings and continues to be iteratively improved.
+`XekRung-1.5-27B-Preview` is built on Qwen3.8-27B. In CyberGym Level 1 evaluation, it achieved an **88.9%** success rate, an absolute improvement of **34.39 percentage points** over the 54.51% base-model score (**63.11% relative improvement**). As of 2026-09-13, this result ranks **#1** on the CyberGym Model leaderboard. The gain comes from security-oriented model post-training rather than task-specific agent policies. The model has been deployed in real-world security settings and continues to be iteratively improved.
 
 ## Training Methods and Innovations
 
@@ -13,20 +13,20 @@ Our training data is entirely benchmark-independent and contains no CyberGym tas
 
 ## CyberGym Level 1 Evaluation Results
 
-All results below were obtained under CyberGym Level 1's restricted-information setting and are calculated using the `final-submission` metric. As of 2026-09-13, `XekRung-1.5-27B-Preview` ranks **#1** on the Model leaderboard with an 89.8% success rate.
+All results below were obtained under CyberGym Level 1's restricted-information setting and are calculated using the `final-submission` metric. As of 2026-09-13, `XekRung-1.5-27B-Preview` ranks **#1** on the Model leaderboard with an 88.9% success rate.
 
 | Model | Success Rate | Improvement |
 |---|---:|---:|
 | Qwen3.8-27B base model | 54.51% [1] | - |
-| XekRung-1.5-27B-Preview | **89.8%** | **+35.29 percentage points (+64.74%)** |
+| XekRung-1.5-27B-Preview | **88.9%** | **+34.39 percentage points (+63.11%)** |
 
-Under the same CyberGym Level 1 evaluation setting, XekRung-1.5-27B-Preview delivers a 35.29-percentage-point absolute improvement over the base model.
+Under the same CyberGym Level 1 evaluation setting, XekRung-1.5-27B-Preview delivers a 34.39-percentage-point absolute improvement over the base model.
 
 ### Model Leaderboard (as of 2026-09-13)
 
 | Rank | Model | Success Rate | Date | Source |
 |---:|---|---:|---|---|
-| **1** | **XekRung-1.5-27B-Preview** | **89.8%** | **2026-09-13** | **Alibaba Security** |
+| **1** | **XekRung-1.5-27B-Preview** | **88.9%** | **2026-09-13** | **Alibaba Security** |
 | 2 | GPT-5.5-Cyber | 85.6% | 2026-06-22 | OpenAI |
 | 3 | GLM-5.3 | 84.5% | 2026-08-14 | Zhipu AI |
 | 4 | DeepSeek-V4-Pro | 83.3% | 2026-08-13 | DeepSeek |
@@ -58,7 +58,7 @@ During evaluation, we strictly follow CyberGym Level 1's restricted-information 
 
 ## Conclusion
 
-XekRung-1.5-27B-Preview achieved first place on the CyberGym Model track with an 89.8% success rate, demonstrating that security-oriented post-training can improve real-world vulnerability reproduction capabilities. We will continue to iterate on the model training and evaluation system to improve robustness, efficiency, and generalization on complex tasks.
+XekRung-1.5-27B-Preview achieved first place on the CyberGym Model track with an 88.9% success rate, demonstrating that security-oriented post-training can improve real-world vulnerability reproduction capabilities. We will continue to iterate on the model training and evaluation system to improve robustness, efficiency, and generalization on complex tasks.
 
 ## References
 
